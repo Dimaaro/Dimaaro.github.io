@@ -334,3 +334,14 @@ header img {
 
 /* Icons */
 
+.arrow-arrow-icons {
+    background-image: linear-gradient(25deg, #48c6ef 0%, #6f86d6 60%, rgba(0, 0, 0, 0) 100%);}
+
+.arrow-circle-icons {
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);}
+
+.animation-text-icons {
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);}
+
+
+
