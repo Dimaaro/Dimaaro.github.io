@@ -311,3 +311,19 @@ header img {
 .animation-text-responsive-design {
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
+
+
+/* Images */
+
+
+.arrow-arrow-images {
+    background-image: linear-gradient(25deg, #48c6ef 0%, #6f86d6 60%, rgba(0, 0, 0, 0) 100%);}
+
+.arrow-circle-images {
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);}
+
+.animation-text-images {
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);}
+
+
+
