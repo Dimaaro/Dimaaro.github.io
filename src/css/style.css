@@ -326,6 +326,15 @@ header img {
     background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);}
 
 
-.images {
+.images img  {
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px #000000;
+    
+}
 
+
+/* Icons */
+
+.icons {
+    
 }
