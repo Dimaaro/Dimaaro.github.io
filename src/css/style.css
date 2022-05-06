@@ -1,6 +1,7 @@
 /* Allgemein */
 
-html, body{
+html,
+body {
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -27,7 +28,7 @@ h1 {
 
 
 .background {
-    background-color: #010100!important;
+    background-color: #010100 !important;
 }
 
 .tag {
@@ -43,7 +44,7 @@ h1 {
     font-size: 2.5rem;
     line-height: 1.2em;
     display: block;
-    margin-top: 2rem; 
+    margin-top: 2rem;
 }
 
 .animation-text {
@@ -63,7 +64,7 @@ h1 {
 
 
 .arrow-circle {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
@@ -75,7 +76,7 @@ h1 {
 }
 
 .blur-effect {
-    background-color: rgba(0, 0, 0, 0.5)!important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     backdrop-filter: saturate(180%) blur(10px);
     -webkit-backdrop-filter: saturate(180%) blur(5px);
     z-index: 99;
@@ -116,14 +117,14 @@ header img {
 
 .header-links:hover {
     color: #FEFEFF;
-    background-color: #010100!important;
+    background-color: #010100 !important;
     border-color: #FEFEFFff;
 }
 
 
 
 .animation-text-web {
-    background-image: linear-gradient(90deg,#74ebd5,#9face6);
+    background-image: linear-gradient(90deg, #74ebd5, #9face6);
     font-size: 7rem;
 }
 
@@ -134,7 +135,8 @@ header img {
 }
 
 .animation-text-webdesign {
-    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);}
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
 
 
 
@@ -149,7 +151,7 @@ header img {
 
 
 .arrow-arrow-logo {
-    background-image: linear-gradient(25deg,  #f9d423 0%, #f83600 60%, rgba(248,54,0,0) 100%);
+    background-image: linear-gradient(25deg, #f9d423 0%, #f83600 60%, rgba(248, 54, 0, 0) 100%);
 }
 
 .arrow-circle-logo {
@@ -182,7 +184,7 @@ header img {
 /* Webentwicklung */
 
 .arrow-arrow-design {
-    background-image: linear-gradient(25deg,  #2af598 0%, #009efd 60%, rgba(0,0,0,0) 100%);
+    background-image: linear-gradient(25deg, #2af598 0%, #009efd 60%, rgba(0, 0, 0, 0) 100%);
 }
 
 .arrow-circle-design {
@@ -275,10 +277,10 @@ header img {
 }
 
 @media only screen and (max-width: 1024px) {
-    .responsiv-design-devices  {
+    .responsiv-design-devices {
         padding-bottom: 20%;
     }
-    
+
     .responsiv-design-devices .img:nth-child(1) {
         width: 100%;
         overflow: hidden;
@@ -287,19 +289,19 @@ header img {
     .responsiv-design-devices .img:nth-child(2) {
         width: 60%;
         left: 50%;
-        transform: translate(-50%,20%);
+        transform: translate(-50%, 20%);
     }
 
     .responsiv-design-devices .img:nth-child(3) {
         width: 20%;
         left: 50%;
-        transform: translate(-50%,40%);
+        transform: translate(-50%, 40%);
     }
 }
 
 
 .arrow-arrow-responsive-design {
-    background-image: linear-gradient(25deg,  #fa709a 0%, #fee140 60%, rgba(0,0,0,0) 100%);
+    background-image: linear-gradient(25deg, #fa709a 0%, #fee140 60%, rgba(0, 0, 0, 0) 100%);
 }
 
 .arrow-circle-responsive-design {
@@ -309,5 +311,3 @@ header img {
 .animation-text-responsive-design {
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
-
-
