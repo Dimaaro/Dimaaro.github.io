@@ -52,7 +52,7 @@ h1 {
     margin-top: 2rem;
 }
 
-.header-animation-text {
+.animation-text {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -128,15 +128,19 @@ header img {
 
 
 
-.header-animation-text-web {
+.animation-text-web {
     background-image: linear-gradient(90deg,#74ebd5,#9face6);
+    font-size: 7rem;
+    line-height: 0;
 }
 
-.header-animation-text-entwicklung {
+
+
+.animation-text-entwicklung {
     background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
 }
 
-.header-animation-text-webdesign {
+.animation-text-webdesign {
     background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);}
 
 
@@ -148,7 +152,7 @@ header img {
 
 
 
-.header-animation-text-logo {
+.animation-text-logo {
     background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
 }
 
@@ -194,7 +198,7 @@ header img {
     background-image: linear-gradient(to bottom, #2af598 0%, #009efd 100%);
 }
 
-.header-animation-text-design {
+.animation-text-design {
     background-image: linear-gradient(to bottom, #2af598 0%, #009efd 100%);
 }
 
@@ -219,7 +223,7 @@ header img {
     position: relative;
 }
 
-.header-animation-text-5 {
+.animation-text-5 {
     background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 }
 
@@ -311,7 +315,7 @@ header img {
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
-.header-animation-text-responsive-design {
+.animation-text-responsive-design {
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
